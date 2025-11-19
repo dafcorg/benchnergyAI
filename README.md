@@ -1,4 +1,4 @@
-pip install numpy matplotlib scikit-learn pynvml
+pip install torch torchvision numpy matplotlib scikit-learn pynvml
 
 python train_convnext_monitor.py \
   --data_dir /ruta/a/imagenet_10gb \
