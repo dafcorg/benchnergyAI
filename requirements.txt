@@ -1,0 +1,39 @@
+# --- Librerías principales ---
+torch
+torchvision
+
+# --- Utilidades numéricas ---
+numpy
+scipy
+
+# --- ML / Métricas ---
+scikit-learn
+
+# --- Monitorización GPU ---
+pynvml
+
+# --- Visualización ---
+matplotlib
+seaborn
+pillow
+
+# --- Dataset y transforms ---
+opencv-python
+
+# --- JSON, YAML y manejo de configuraciones ---
+pyyaml
+
+# --- Data handling ---
+pandas
+
+# --- Dibujos / gráficos opcionales ---
+tqdm
+
+# --- Para reproducibilidad ---
+python-dotenv
+
+# --- Para experiment tracking (ligero, opcional) ---
+jsonpickle
+
+# --- Asegurar compatibilidad con CUDA / drivers ---
+nvidia-ml-py3
