@@ -1,3 +1,5 @@
+pip install -r requirements.txt
+
 pip install torch torchvision numpy matplotlib scikit-learn pynvml
 
 python train_convnext_monitor.py \
