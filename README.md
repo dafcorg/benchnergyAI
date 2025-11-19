@@ -1,3 +1,8 @@
+https://www.kaggle.com/datasets/vitaliykinakh/stable-imagenet1k
+
+python3 -m venv venv
+source venv/bin/activate
+
 pip install -r requirements.txt
 
 pip install torch torchvision numpy matplotlib scikit-learn pynvml
