@@ -1,1 +1,4 @@
 torchrun --standalone --nproc_per_node=1 tcnV2.py --data_dir ./imagenet1k --log_dir ./logs_convnext --epochs 20  --batch_size 64 --num_workers 8 --lr 0.001 --weight_decay 0.05 --precision fp16 --monitor_interval 1 --seed 1234
+
+conda env create -f env.yml
+conda activate exp1
